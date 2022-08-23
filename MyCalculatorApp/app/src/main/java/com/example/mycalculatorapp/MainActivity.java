@@ -58,12 +58,15 @@ public class MainActivity extends AppCompatActivity {
         EditText number2ET = findViewById(R.id.num2ET);
         TextView numberSumTV = findViewById(R.id.resultTV);
 
-        int num1 = Integer.parseInt((number1ET.getText().toString()));
-        int num2 = Integer.parseInt(number2ET.getText().toString());
-        int quotient = num1 / num2;
-
+        double num1 = Integer.parseInt((number1ET.getText().toString()));
+        double num2 = Integer.parseInt(number2ET.getText().toString());
+        double temp = num1 / num2;
+        double quotient = (double)(Math.round(temp * 100.0) / 100.00);
         numberSumTV.setText("" + quotient);
     }
 
+    public void switchScreens(View v) {
+        EditText editText = findViewById(R.id.button2);
+    }
 
 }
