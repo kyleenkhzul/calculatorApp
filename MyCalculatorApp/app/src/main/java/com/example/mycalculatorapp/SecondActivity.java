@@ -27,20 +27,13 @@ public class SecondActivity extends AppCompatActivity {
         EditText numberSeventhClass = findViewById(R.id.seventhClass);
         TextView numberSumTV = findViewById(R.id.resultGPA);
 
-        Context context = getApplicationContext();
-        CharSequence text = "Please enter a GPA in the boxes";
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-
-
-         int num1 = Integer.parseInt((numberFirstClass.getText().toString()));
-         int num2 = Integer.parseInt(numberSecondClass.getText().toString());
-         int num3 = Integer.parseInt((numberThirdClass.getText().toString()));
-         int num4 = Integer.parseInt(numberFourthClass.getText().toString());
-         int num5 = Integer.parseInt((numberFifthClass.getText().toString()));
-         int num6 = Integer.parseInt(numberSixthClass.getText().toString());
-         int num7 = Integer.parseInt(numberSeventhClass.getText().toString());
-
+         int num1 = (int)Double.parseDouble((numberFirstClass.getText().toString()));
+         int num2 = (int)Double.parseDouble(numberSecondClass.getText().toString());
+         int num3 = (int)Double.parseDouble((numberThirdClass.getText().toString()));
+         int num4 = (int)Double.parseDouble(numberFourthClass.getText().toString());
+         int num5 = (int)Double.parseDouble((numberFifthClass.getText().toString()));
+         int num6 = (int)Double.parseDouble(numberSixthClass.getText().toString());
+         int num7 = (int)Double.parseDouble(numberSeventhClass.getText().toString());
 
         if(numberFirstClass.getText().toString() == "" ||
                 numberSecondClass.getText().toString() == "" ||
@@ -49,7 +42,6 @@ public class SecondActivity extends AppCompatActivity {
                 numberFifthClass.getText().toString() == "" ||
                 numberSixthClass.getText().toString() == "" ||
                 numberSeventhClass.getText().toString() == "") {
-            toast.show();
         }
 
          double sum = (num1 + num2 + num3 + num4 + num5 + num6 + num7);

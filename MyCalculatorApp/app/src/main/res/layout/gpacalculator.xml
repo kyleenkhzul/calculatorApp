@@ -13,6 +13,7 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="4"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -29,6 +30,7 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="3"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -45,6 +47,7 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="3"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -61,6 +64,7 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="3"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -77,6 +81,7 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="4"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -107,6 +112,7 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="4"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -123,6 +129,7 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="4"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -147,18 +154,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.826" />
-
-    <Button
-        android:id="@+id/normal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:backgroundTint="@color/bronze"
-        android:text="NORMAL"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
