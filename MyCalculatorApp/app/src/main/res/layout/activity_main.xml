@@ -13,14 +13,14 @@
         android:layout_width="48dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/bronze"
+        android:onClick="findMultiple"
         android:text="*"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
-        android:onClick="findMultiple"/>
+        app:layout_constraintVertical_bias="0.75" />
 
     <Button
         android:id="@+id/addition"
@@ -32,7 +32,7 @@
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.75" />
@@ -42,14 +42,14 @@
         android:layout_width="48dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/bronze"
+        android:onClick="findDifference"
         android:text="-"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintHorizontal_bias="0.399"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
-        android:onClick="findDifference"/>
+        app:layout_constraintVertical_bias="0.75" />
 
     <TextView
         android:id="@+id/resultTV"
@@ -70,7 +70,6 @@
         android:layout_width="100dp"
         android:layout_height="58dp"
         android:ems="10"
-        android:hint="4"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -87,7 +86,6 @@
         android:layout_width="107dp"
         android:layout_height="57dp"
         android:ems="10"
-        android:hint="3"
         android:inputType="numberDecimal"
         android:textAlignment="center"
         android:textColor="@color/black"
